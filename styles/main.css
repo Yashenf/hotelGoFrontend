@@ -1,0 +1,283 @@
+/*Header*/
+
+
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #242526;
+}
+
+.navbar-brand>p{
+    font-size: 28px;
+    color: #ffac00;
+    font-weight: bold;
+    word-spacing: 2px;
+}
+
+.nav-link>p{
+    padding-top: 15px;
+    color: white;
+}
+
+.login-btn{
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 130px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #ffac00;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+.login-btn>a>p{
+    color: black;
+}
+
+.dropdown-menu{
+    background-color: #3D95FD;
+
+}
+
+/*-------------- End Header ------------*/
+main{
+    width: 100%;
+    height: 100vh;
+}
+/*Hero Area */
+.hero-area{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://wallpapercave.com/wp/wp7759083.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.hero-main-text{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-main-text>h1{
+    font-size: 52px;
+    font-weight: bold;
+    color: white;
+    text-shadow: black;
+    text-align: center;
+}
+
+.hero-main-text>h3{
+    font-size: 36px;
+    font-weight: lighter;
+    color: white;
+    text-shadow: black;
+}
+
+.promotions{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.promotions>p{
+    font-size: 24px;
+    font-weight: normal;
+    color: white;
+    text-shadow: black;
+}
+
+.promotions>button{
+    padding: 10px 20px;
+    background-color: #ffac00;
+    border-radius: 50px;
+    font-weight: bold;
+    color: white;
+    border: none;
+}
+
+.promotions>button:hover{
+    color: green;
+    background-color: white;
+}
+/* ------------- end Hero Area -----------*/
+
+/*stats*/
+
+.stats-box{
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: orange;
+
+}
+
+.stat-container{
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.stat-container:first-child,.stat-container:nth-child(2){
+    border-right: 2px solid black;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    font-weight: bold;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+}
+/* end stats*/
+
+/*travel packs*/
+.packs{
+    width: 100%;
+}
+.pack-title{
+    width: 100%;
+}
+.pack-title>h2{
+    font-size: 32px;
+    text-align: center;
+    margin-top: 30px;
+}
+/* ebd travel packs*/
+
+/*car*/
+
+.pricing-box {
+    -webkit-box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
+    padding: 35px 50px;
+    border-radius: 20px;
+    position: relative;
+    border: 0.5px solid black ;
+}
+
+.pricing-box .plan {
+    font-size: 34px;
+}
+
+.pricing-badge {
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    right: 0;
+    width: 100%;
+    display: block;
+    font-size: 15px;
+    padding: 0;
+    overflow: hidden;
+    height: 100px;
+}
+
+.pricing-badge .badge {
+    float: right;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    right: -67px;
+    top: 17px;
+    position: relative;
+    text-align: center;
+    width: 200px;
+    font-size: 13px;
+    margin: 0;
+    padding: 7px 10px;
+    font-weight: 500;
+    color: #ffffff;
+    background: #fb7179;
+}
+.mb-2, .my-2 {
+    margin-bottom: .5rem!important;
+}
+p {
+    line-height: 1.7;
+}
+
+
+/*end cars*/
+
+
+/*destination*/
+.destinations{
+    padding-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination-title{
+    width: 100%;
+}
+.destination-title>h2{
+    font-size: 32px;
+    text-align: center;
+}
+
+.destination-outer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destination-left {
+    width: 50%;
+}
+
+.destination-right {
+    width: 50%;
+    height: 370px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* This will make the right box match the height of the left box */
+.destination-outer .destination-right {
+    flex: 1;
+}
+
+.list-group-item{
+    text-align: center;
+}
+
+#destination-carousel{
+    width: 100%;
+    height: 300px;
+}
+
+
+/*end destination*/
